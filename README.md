@@ -1,16 +1,95 @@
-# React + Vite
+# 🌦️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean Weather App built using **React + Material UI + OpenWeather API**.
+Users can search any city and get real-time weather details like temperature, humidity, and weather conditions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search weather by city name
+* 🌡️ Displays temperature, min & max temperature
+* 💧 Shows humidity
+* ☁️ Weather condition description (clear sky, haze, etc.)
+* 🎨 Clean UI using Material UI
+* ⚡ Fast and responsive
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (Functional Components + Hooks)
+* Material UI (MUI)
+* OpenWeather API
+* CSS
+
+---
+
+## 📂 Project Structure
+
+```
+react-weather-widget/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── WeatherApp.jsx
+│   ├── SearchBox.jsx
+│   ├── InfoBox.jsx
+│   ├── InfoBox.css
+│   ├── SearchBox.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ How It Works
+
+1. User enters a city name
+2. SearchBox component sends request to OpenWeather API
+3. API returns weather data
+4. Data is passed to parent (WeatherApp)
+5. InfoBox component displays the result
+
+---
+
+## 🔑 API Setup
+
+This project uses **OpenWeather API**
+
+1. Go to: https://openweathermap.org/api
+2. Create account & generate API key
+3. Replace API key in your code:
+
+```js
+const API_KEY = "YOUR_API_KEY";
+```
+
+---
+
+## 🖥️ Installation & Run
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/react-weather-widget.git
+
+# Go to project folder
+cd react-weather-widget
+
+# Install dependencies
+npm install
+
+# Run project
+npm run dev
+
+---
+
+
+## 🙌 Author
+
+Narendra Singh Bisht
+
