@@ -1,0 +1,8 @@
+.InfoBox {
+  text-align: center;
+
+  /* 🔥 same width feel */
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+}
