@@ -71,6 +71,17 @@ const API_KEY = "YOUR_API_KEY";
 
 ---
 
+## 📸 Screenshot
+
+![Weather App Screenshot](./assets/Screenshot.png)
+---
+
+## 🙌 Author
+
+Narendra Singh Bisht
+
+---
+
 ## 🖥️ Installation & Run
 
 ```bash
@@ -86,10 +97,9 @@ npm install
 # Run project
 npm run dev
 
+
 ---
 
 
-## 🙌 Author
 
-Narendra Singh Bisht
 
